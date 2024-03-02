@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e205ebe68902444095631cee12c7c8c, type: 3}
+  m_Name: PlayerKatanaWeaponViewData
+  m_EditorClassIdentifier: 
+  takeSwordAudioClip: {fileID: 8300000, guid: b8ca753d7718ddd43a1b2998e3f8f38b, type: 3}
+  putAwaySwordAudioClip: {fileID: 8300000, guid: ad9340538a9270c47bff2007accd1e8c, type: 3}
+  hitAudioClips:
+  - {fileID: 8300000, guid: 2bc372c95652b4849a9d5a9930c5f688, type: 3}
+  - {fileID: 8300000, guid: e4a7d146c372bf64eaaeffc55c325682, type: 3}
+  - {fileID: 8300000, guid: 8dc4ffb994d5acd4382eb0d8c9a457af, type: 3}
+  - {fileID: 8300000, guid: 103c9e66546108b47a3b42a551413c82, type: 3}
+  - {fileID: 8300000, guid: c871a0816191e054a88048a5680a862e, type: 3}
+  missAudioClip: {fileID: 8300000, guid: fe4cd44311f785045a22683dbf0d8fe7, type: 3}

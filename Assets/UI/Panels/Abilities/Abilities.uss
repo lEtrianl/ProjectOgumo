@@ -1,0 +1,148 @@
+.ve {
+    background-color: rgb(0, 0, 0);
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.polys {
+    width: 112px;
+    height: 125px;
+    background-image: url('project://database/Assets/UI/Panels/Abilities/poly512h.png?fileID=2800000&guid=3787027fcb34dee47a8a5a1e05d182c2&type=3#poly512h');
+    transition-duration: 0.3s;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.poly_like-hud {
+    height: 210px;
+    width: 120px;
+    -unity-font: url('project://database/Assets/UI/Fonts/InterTight-VariableFont_wght.ttf?fileID=12800000&guid=f6d4e89c7c0e5c44992901513d4036d7&type=3#InterTight-VariableFont_wght');
+    -unity-font-style: bold;
+    font-size: 24px;
+    color: rgba(210, 210, 210, 0.5);
+    -unity-font-definition: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.disabledPoly {
+    opacity: 0.5;
+}
+
+.active-switch-button {
+    color: rgb(255, 255, 255);
+}
+
+.activePoly {
+    transition-duration: 0.3s;
+}
+
+.activePoly:hover {
+    scale: 1.2 1.2;
+    transition-duration: 0.3s;
+}
+
+.Kanabo RadialFill {
+    background-image: resource('KanaboIcon512h');
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    opacity: 1;
+    -unity-slice-left: 4;
+    -unity-slice-top: 4;
+}
+
+.Daikyu RadialFill {
+    background-image: resource('DaikyuIcon512h');
+    transition-duration: 0.4s;
+    opacity: 1;
+    -unity-slice-left: 4;
+    -unity-slice-top: 4;
+}
+
+.Tessen RadialFill {
+    transition-duration: 0.4s;
+    opacity: 1;
+    background-image: resource('TessenIcon512h');
+    -unity-slice-left: 4;
+    -unity-slice-top: 4;
+}
+
+.Regeneration RadialFill {
+    transition-duration: 0.4s;
+    opacity: 1;
+    background-image: resource('RegenerationIcon512h');
+    -unity-slice-left: 4;
+    -unity-slice-top: 4;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+}
+
+.TessenPolyControl .polygon_icon {
+    background-image: resource('TessenIcon512h');
+    opacity: 1;
+    flex-grow: 1;
+}
+
+.DaikyuPolyControl .polygon_icon {
+    background-image: resource('DaikyuIcon512h');
+    opacity: 1;
+    flex-grow: 1;
+}
+
+.KanaboPolyControl .polygon_icon {
+    background-image: resource('KanaboIcon512h');
+    opacity: 1;
+    flex-grow: 1;
+}
+
+.RegenerationPolyControl .polygon_icon {
+    background-image: resource('RegenerationIcon512h');
+    opacity: 1;
+    flex-grow: 42;
+}
+
+.ParryPolyControl .polygon_icon {
+    background-image: resource('ParryIcon512h');
+    opacity: 1;
+    flex-grow: 42;
+}
+
+.out-effect-discr {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.effect-discr-label {
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.effect-discr-text {
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+}
+
+.effect-icon {
+    background-image: url('project://database/Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled@2x.png?fileID=2800000&guid=e54e20c7a9730fe4c822d63228527ae4&type=3#d_TrackMuteButtonEnabled@2x');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 170px;
+    height: 170px;
+}
+
+.effect-labelAndIcon {
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
